@@ -1,0 +1,25 @@
+.filter-text {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin: auto 35px auto 83px;
+}
+.btn {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    width: 75px;
+    height: 30px;
+    border: none;
+    background-color:white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: 5px;
+}
+
+.btn.btn-light {
+    border: 1px solid black;
+}

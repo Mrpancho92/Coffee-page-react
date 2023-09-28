@@ -1,0 +1,54 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+.coffee-header {
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 260px;
+    margin: 0 auto;
+}
+.logo {
+    position: absolute;
+    height: 260px;
+}
+.logo_header {
+    margin-top: 35px;
+    margin-left: 164px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+.nav {
+    margin-left: 196px;
+    top: 52px;
+    position: absolute;
+    width: 330px;  
+    z-index: 1;
+}
+.nav a {
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration:underline;
+}
+.nav a:last-child {
+    margin-right: 0px;
+}
+.text_header {
+    position: absolute;
+    left:605px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 132px;
+    color:white;
+    z-index: 1;
+}

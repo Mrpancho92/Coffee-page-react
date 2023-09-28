@@ -1,0 +1,36 @@
+.coffee-list-item {
+    margin: 0 71px 60px 0;
+    padding: 35px 25px 19px 23px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.coffee-list-item_name {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400; 
+    font-style: italic;
+    color: black;
+    text-transform: uppercase;
+}
+
+.coffee-list-item_contry {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    justify-content: right;
+    margin-top: 11px;
+    color: black;
+}
+.coffee-list-item_prise {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    justify-content: right;
+    margin-top: 11px;
+    color: black;
+}

@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    justify-content: center;   
+    margin-top: 70px;
+}
+.about_info {
+    text-align: center;
+    margin-left: 78px;
+    width: 350px;
+}
+.about_text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;        
+}
+.about_image {
+    position: relative;
+}
+.line_left {
+    position: absolute;
+    width: 60px;
+    top:50%;
+    left:82px;
+    border: 1px solid black;
+}
+.line_right {
+    position: absolute;
+    width: 60px;
+    top:50%;
+    right: 82px;
+    border: 1px solid black;
+}
+.about_description {
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+.about_description p:first-child {
+    margin-bottom: 20px;
+}
